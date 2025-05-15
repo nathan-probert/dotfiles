@@ -1,0 +1,34 @@
+# Editor and system files
+*.swp
+*.swo
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# Cache directories
+.cache/
+plugged/
+node_modules/
+__pycache__/
+
+# Local or personal overrides (safe to ignore if you add them)
+.bash_history
+.zsh_history
+.bash_sessions
+.local/
+.gnome/
+.gconf/
+gvfs/
+
+# Compiled binaries or temporary files
+*.out
+*.o
+*.class
+*.log
+
+# SSH or credentials (in case you ever accidentally include)
+*.pem
+*.key
+*.crt
+*.enc
