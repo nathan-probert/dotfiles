@@ -117,3 +117,5 @@ if ! shopt -oq posix; then
 fi
 
 alias wezterm='flatpak run org.wezfurlong.wezterm'
+
+. "$HOME/.local/bin/env"
