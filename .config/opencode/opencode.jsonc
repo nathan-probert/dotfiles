@@ -1,0 +1,23 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "shell": "/home/nathan/.config/opencode/shell",
+  "instructions": ["/home/nathan/.config/opencode/rules/code-worktree.md"],
+  "mcp": {
+    "servers": {
+      "roblox-studio": {
+        "type": "local",
+        "command": ["/home/nathan/.local/bin/roblox-studio-mcp"],
+        "timeout": {
+          "catalog": 120000
+        }
+      },
+      "composio": {
+        "type": "remote",
+        "url": "https://connect.composio.dev/mcp",
+        "oauth": {
+          "callback_port": 19876
+        }
+      }
+    }
+  }
+}
